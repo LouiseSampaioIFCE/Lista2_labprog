@@ -4,11 +4,13 @@ int main()
 {
    int dia;
 
-    do {
+    do 
+    {
         printf("Digite um numero de 1 a 7 (0 para sair): ");
         scanf("%d", &dia);
 
-        switch(dia) {
+        switch(dia) 
+        {
             case 1:
                 printf("Domingo\n");
                 break;
